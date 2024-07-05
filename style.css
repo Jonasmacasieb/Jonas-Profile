@@ -1,0 +1,106 @@
+
+
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #F0F0F0;
+        color: #333333;
+    }
+    #hero{
+        background-image: url('assets/bg.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .jumbotron {
+        background-color: #0043A4;
+        color: #FFFFFF;
+        padding: 100px 0;
+        text-align: center;
+    }
+    
+    .hero-title span {
+        color: #FFB400;
+    }
+    
+    .hero-cta .cta-btn--hero {
+        background-color: #FFB400;
+        color: #0043A4;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    
+    .section-title {
+        color: #0043A4;
+        margin-bottom: 40px;
+    }
+    
+    .about-wrapper__image img {
+        max-width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .about-wrapper__info {
+        background-color: #FFFFFF;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cta-btn--resume {
+        
+        color: #0026ff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    
+    .project-wrapper__text-title {
+        color: #000000;
+    }
+    .project-wrapper__image{
+
+    width: 250px;
+    height: 250px;
+    }
+    
+    .thumbnail {
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-wrapper__text {
+        font-size: 18px;
+   
+    }
+    
+    .footer {
+        background-color: #333333;
+        color: #FFFFFF;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .social-links a {
+        color: #FFFFFF;
+        margin: 0 10px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .social-links a:hover {
+        color: #FFB400;
+    }
+    
+    .footer__text a {
+        color: #FFB400;
+        text-decoration: none;
+    }
+    
