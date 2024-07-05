@@ -4,23 +4,33 @@
     body {
         font-family: 'Open Sans', sans-serif;
         background-color: #F0F0F0;
-        color: #333333;
+        color: #333333; 
     }
     #hero{
-        background-image: url('assets/bg.JPG');
+   
         background-repeat: no-repeat;
         background-size: cover;
+   
     }
+    .profile{
+        width:300px;
+        height: 300px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10%;
+        right: 30%;
+    }
+
     
     .jumbotron {
         background-color: #0043A4;
         color: #FFFFFF;
         padding: 100px 0;
-        text-align: center;
+        text-align: left;
     }
     
     .hero-title span {
-        color: #FFB400;
+        color: #66ff00;
     }
     
     .hero-cta .cta-btn--hero {
@@ -35,7 +45,7 @@
     
     .section-title {
         color: #0043A4;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     
     .about-wrapper__image img {
@@ -104,3 +114,23 @@
         text-decoration: none;
     }
     
+    .socialmedia {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+ 
+    text-align: center;
+    justify-content: center;
+    }
+     
+    .socialmedia li {
+        list-style-type: none;
+        display: flex;
+  
+        padding: 30px;
+        }
+    .socialmedia img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
