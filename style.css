@@ -6,6 +6,17 @@
         background-color: #F0F0F0;
         color: #333333; 
     }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    
+      .hero-content {
+        flex: 1;
+      }
+     
     #hero{
    
         background-repeat: no-repeat;
@@ -16,9 +27,7 @@
         width:300px;
         height: 300px;
         border-radius: 50%;
-        position: absolute;
-        top: 10%;
-        right: 30%;
+        
     }
 
     
@@ -134,3 +143,30 @@
         height: 50px;
         border-radius: 10px;
     }
+    .infocontent{
+        display: flex;
+        align-items: center;
+    }
+
+    .info{
+        list-style-type: none;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+       
+    
+    }
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+padding: 10px;
+}
+.contact-wrapper__text img {
+    padding: 10px;
+}
+.contact-wrapper__text  {
+    padding: 10px;
+    margin: 10px;
+}
