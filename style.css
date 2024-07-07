@@ -239,6 +239,11 @@ font-size: 1.2em;
   #navbar ul{
     font-size: 17px;
   }
+  #navbar nav{
+
+  margin-top: 30px;
+  }
+  
     .jumbotron {
       padding: 2rem 1rem;
       
