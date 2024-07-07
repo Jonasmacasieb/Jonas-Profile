@@ -236,9 +236,15 @@ font-size: 1.2em;
     body {
       font-size: 14px;
     }
-  
+  #navbar ul{
+    font-size: 17px;
+  }
     .jumbotron {
       padding: 2rem 1rem;
+      
+    }
+    #hero{
+      padding-top: 100px; 
     }
   
     .hero-title {
