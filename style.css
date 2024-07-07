@@ -36,6 +36,8 @@
         color: #FFFFFF;
         padding: 100px 0;
         text-align: left;
+        width: 100%;
+        
     }
     
     .hero-title span {
@@ -171,3 +173,91 @@ padding: 10px;
     padding: 10px;
     margin: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .jumbotron {
+      padding: 2rem 1rem;
+    }
+  
+    .hero-title {
+      font-size: 24px;
+    }
+  
+    .hero-title span {
+      font-size: 26px;
+    }
+  
+    .hero-cta {
+      margin-top: 1rem;
+    }
+  
+    .profile {
+      width: 50%;
+      margin: auto;
+    
+      height: auto;
+    }
+  
+    .about-wrapper {
+      flex-direction: column;
+    }
+  
+    .about-wrapper__image,
+    .about-wrapper__info {
+      margin-bottom: 1rem;
+    }
+  
+    .about-wrapper__image img {
+      width: 100%;
+      height: auto;
+    
+    }
+  
+    .about-wrapper__info-text {
+      font-size: 14px;
+    }
+  
+    .project-wrapper__text-title {
+      font-size: 20px;
+    }
+  
+    .project-wrapper__text {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    .project-wrapper__image {
+      margin-bottom: 1rem;      
+    }
+  
+    .contact-wrapper {
+      text-align: center;
+    }
+  
+    .contact-wrapper__text {
+      font-size: 14px;
+    }
+  
+    .socialmedia {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .socialmedia div {
+      margin-bottom: 1rem;
+    }
+   
+  
+    .footer__text {
+      font-size: 14px;
+      text-align: center;
+    }
+ 
+
+  }
+  
