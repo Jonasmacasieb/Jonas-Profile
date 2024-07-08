@@ -232,6 +232,7 @@ font-size: 1.2em;
 
 
 
+
 @media only screen and (max-width: 600px) {
     body {
       font-size: 14px;
@@ -241,8 +242,14 @@ font-size: 1.2em;
   }
   #navbar nav{
 
-  margin-top: 30px;
+margin-top: 35px;
+  
   }
+  #navbar a:hover{
+    color: black;
+    font-size: 1.2em;
+    }
+    
   
     .jumbotron {
       padding: 2rem 1rem;
