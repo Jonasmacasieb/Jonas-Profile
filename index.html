@@ -16,9 +16,8 @@
     <link rel="stylesheet" href="src/css/bootstrap-grid.css">
     <link rel="stylesheet" href="src/css/bootstrap.css">
     <link rel="stylesheet" href="src/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="src/js/bootstrap.js">
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/js/script.js" />
+   
   </head>
 
   <body>
@@ -128,10 +127,14 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/img/resume2.pdf"
+                  href="resume"
+                  onclick="openLink('link1')"
+                  id="link1"
+                  alt="link1"
                 >
                   View Resume
                 </a>
+           
               </span>
             </div>
           </div>
@@ -159,7 +162,10 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/Jonasmacasieb/votingmanagementsystem"
+                  id="link2"
+                  onclick="openLink('link2')"
+                  href="VotingManagementSystem"
+                  alt="link2"
                 >
                   Source Code
                 </a>
@@ -197,7 +203,9 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/Jonasmacasieb/Tic-Tac-Toe"
+                  onclick="openLink('link3')"
+                  href="Tic-Tac-Toe"
+                  id="link3"
                 >
                   Source Code
                 </a>
@@ -229,7 +237,7 @@
   <div class="container">
     <h2 class="section-title dark-blue-text" >Certificates</h2>
 
-      <a href="https://www.freecodecamp.org/certification/markjonas2341/responsive-web-design" target="_blank"  alt="certificates">Responsive Web Desgin</a>
+      <a rel="noreferrer" href="Certificates" target="_blank" onclick="openLink('link4')" id="link4" alt="certificates">Responsive Web Desgin</a>
       <br>
       <a href="#">National Certificate II Computer Systems Servicing</a>
    
@@ -252,21 +260,21 @@
     <ul class="socialmedia">
       <div>
       <img src="assets/img/fb.png"  alt="facebook">
-     <a href="https://www.facebook.com/ChMarkjonas.macasieb23" target="_blank"> <li>Facebook</li></a>
+     <a rel="noreferrer" href="social" id="link5" onclick="openLink('link5')" target="_blank"> <li>Facebook</li></a>
     </div>
     
     <div>
       <img src="assets/img/th.jfif" alt="X">
-     <a href="https://x.com/Jonasmacasieb" target="_blank"> <li>X</li></a>
+     <a href="social" onclick="openLink('link6')" id="link6" rel="noreferrer" target="_blank"> <li>X</li></a>
     </div>
     <div>
       <img src="assets/img/linkedIn_PNG7.png" alt="LinkedIn">
-      <a href="https://www.linkedin.com/in/mark-jonas-macasieb-4b4589313/" target="_blank"><li>LinkedIn</li></a>
+      <a href="social" onclick="openlink('link7')" id="link7" rel="noreferrer" target="_blank"><li>LinkedIn</li></a>
     </div>
     <div>
   
       <img src="assets/img/workfeatured-GitHub-2(1).png" alt="github">
-      <a href="https://github.com/Jonasmacasieb" target="_blank"><li>Github</li></a>
+      <a href="social" onclick="openLink('link8')" id="link8" rel="noreferrer" target="_blank"><li>Github</li></a>
     </div>
     </ul>
   </section>
@@ -290,6 +298,7 @@
         
       </div>
     </footer>
- 
+ <script src="assets/js/script.js"></script>
+ <script src="src/js/bootstrap.js"></script>
   </body>
 </html>
